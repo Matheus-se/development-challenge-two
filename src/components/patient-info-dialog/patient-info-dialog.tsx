@@ -398,7 +398,7 @@ const PatientInfoDialog: React.FC = () => {
             variant="contained"
           >
             {loading ? (
-              <CircularProgress size={20} className="color-white" />
+              <CircularProgress size={20} color="inherit" />
             ) : (
               "Submit"
             )}

@@ -81,7 +81,7 @@ const ManagePatients: React.FC = () => {
         <Fab
           onClick={() => goToTop()}
           size="small"
-          sx={{position: "fixed", bottom: 5, right: 5}}
+          sx={{position: "fixed", bottom: 10, right: 10}}
           color="secondary"
         >
           <KeyboardArrowUpIcon fontSize="medium" />

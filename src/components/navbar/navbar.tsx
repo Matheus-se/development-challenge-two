@@ -41,9 +41,13 @@ const NavBar = () => {
             </IconButton>
           </a>
         </Link>
-        <IconButton className="button-icon" disableRipple edge="start">
-          <GitHubIcon sx={{ color: "white" }}></GitHubIcon>
-        </IconButton>
+        <Link href={"https://github.com/Matheus-se/development-challenge-two"}>
+          <a target="_blank" rel="noreferrer">
+            <IconButton className="button-icon" disableRipple edge="start">
+              <GitHubIcon sx={{ color: "white" }}></GitHubIcon>
+            </IconButton>
+          </a>
+        </Link>
         {isLoggedIn ? (
           <Button onClick={() => logout()} color="inherit" variant="text">
             Logout
